@@ -17,7 +17,7 @@ mongodb:
         - $HOME/mongo/data/db:/data/db
         
 browser:
-    image: devurandom/firefox
+    image: selenoid/firefox
     container_name: firefox
     links:
         - tomcatserver:tomcat
